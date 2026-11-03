@@ -83,6 +83,8 @@ The application follows this workflow:
 document_qa_chatbot/
 │
 ├── data/
+│   ├── Investor Awareness Booklet (English).pdf
+│   ├── NISM-Series-VIII Equity Derivatives Certification Examination.pdf
 │   └── evaluation/
 │       ├── evaluation_results.csv
 │       ├── judge_results.csv
@@ -101,7 +103,6 @@ document_qa_chatbot/
 │       │   ├── __init__.py
 │       │   ├── answer_evaluation.py
 │       │   └── evaluate.py
-│       │
 │       ├── __init__.py
 │       ├── app.py
 │       ├── ingestion.py
@@ -109,8 +110,13 @@ document_qa_chatbot/
 │       ├── generation.py
 │       └── evaluation_controller.py
 │
-├── data/                  # Input PDF documents
+├── .streamlit/
+│   └── config.toml
+├── .gitignore
+├── .python-version
+├── pyproject.toml
 ├── requirements.txt
+├── uv.lock
 ├── README.md
 └── recall_evaluation.ipynb
 ```
@@ -126,17 +132,23 @@ document_qa_chatbot/
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/Nirmalraj-G/intelligent-document-qa-chatbot
-cd document_qa_chatbot
+git clone https://github.com/Nirmalraj-G/intelligent-document-qa-chatbot.git
+cd intelligent-document-qa-chatbot
 ```
 
-### Step 2: Install dependencies
+### Step 2: Create a virtual environment
+
+```bash
+uv venv
+```
+
+### Step 3: Install dependencies
 
 ```bash
 uv pip install -r requirements.txt
 ```
 
-### Step 3: Run the Streamlit application
+### Step 4: Run the Streamlit application
 
 On Windows PowerShell:
 
@@ -144,8 +156,7 @@ On Windows PowerShell:
 $env:PYTHONPATH = "src"
 uv run streamlit run src/document_qa_chatbot/app.py
 ```
-
-The Streamlit application will provide a local URL in the terminal.
+The application will display a local URL in the terminal.
 
 ## 8. Evaluation
 
