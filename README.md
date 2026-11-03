@@ -126,7 +126,7 @@ document_qa_chatbot/
 ### Step 1: Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone [YOUR_GITHUB_REPOSITORY_URL](https://github.com/Nirmalraj-G/intelligent-document-qa-chatbot)
 cd document_qa_chatbot
 ```
 
