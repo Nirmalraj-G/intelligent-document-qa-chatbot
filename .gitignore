@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+.venv_test/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Downloaded model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Temporary files
+*.tmp
+*.log
+test_chunkc.py
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+Question ID,Correctness,Faithfulness,Evaluation Reason
+Q1,3,4,The generated answer closely matches the expected answer but lacks some details about the role of the fund manager and the specific types of securities typically included in a mutual fund.
+Q10,4,3,The generated answer closely matches the expected answer but lacks some details from the retrieved document context.
+Q11,3,3,"The generated answer correctly identifies derivatives as financial contracts whose value is derived from an underlying asset, and lists several purposes of derivatives. It includes key points from the retrieved document context."
+Q12,4,4,The generated answer closely matches the expected answer and is well-supported by the retrieved document context.
+Q13,3,3,"The generated answer accurately describes the key features of an options contract, including the right versus obligation aspect, premium payment, and different types of options. However, it lacks detail about the categorization mentioned in the retrieved document."
+Q14,4,4,The generated answer accurately describes the differences between call options and put options as per the expected answer. The retrieved document context supports these points without any contradictions.
+Q15,3,3,"The generated answer accurately describes the differences between futures and options contracts, including their obligations, payoffs, and the nature of their use."
+Q16,3,3,"The generated answer closely matches the expected answer in terms of content and intent. However, there are minor differences in phrasing and additional details that do not significantly alter the core message."
+Q17,3,3,"The generated answer accurately describes the concept of margin in futures trading, including its purpose and calculation method. However, it does not mention the specific details provided in the retrieved document context."
+Q18,3,4,The generated answer accurately describes the concept of mark-to-market settlement without contradicting the provided context. It correctly identifies the process and its application in different types of contracts.
+Q19,3,3,"The generated answer correctly identifies the strike price as the predetermined price at which the underlying security may be purchased or sold, and the expiry date as the specific date by which the option must be exercised or expire."
+Q2,3,3,"The generated answer closely follows the expected format and content, though it lacks depth and detail compared to the provided context."
+Q20,3,4,"The generated answer closely matches the expected answer in terms of content and structure. However, some details about liquidity risk and counterparty risk are missing."
+Q3,3,3,The generated answer closely matches the expected answer but lacks detail about the benefits of rupee cost averaging.
+Q4,3,3,"The generated answer closely matches the expected answer in terms of key points, though some details are missing."
+Q5,3,4,"The generated answer closely matches the expected answer, including all key points about the Risk-o-meter, its purpose, and the six levels. However, there are minor differences in terminology ('mutual fund scheme' vs 'mutual fund') and additional details like 'fund manager and tenure' and 'exit load and minimum investment', which do not significantly affect the core message."
+Q6,3,3,"The generated answer closely matches the expected answer, providing accurate distinctions between Direct and Regular plans. However, it lacks detail on the impact of the distributor commission and the comparison with the provided context."
+Q7,4,4,"The generated answer closely matches the expected answer, including all key points such as the definition, calculation method, and implications of NAV."
+Q8,3,4,"The generated answer accurately describes the differences between the primary and secondary markets, including key points about their roles and functions. However, some details might be simplified or generalized."
+Q9,3,4,"The generated answer accurately describes the key aspects of an IPO, including the application process and the role of ASBA and UPI. However, it lacks detail about the specific steps involved in creating and transferring ownership of shares."

@@ -1,0 +1,651 @@
+Question ID,Question,Expected Answer,Generated Answer,Retrieved Chunks,Retrieved Context,Correctness,Faithfulness,Evaluation Reason
+Q1,What is a mutual fund?,A mutual fund collects money from multiple investors and invests it as a single pool in a portfolio of securities. A professional fund manager manages the investments.,"A mutual fund is a type of pooled investment vehicle that collects money from multiple investors and pools their investments into a managed portfolio consisting of various securities such as stocks, bonds, or money market instruments. The professional fund manager oversees these investments according to the objectives outlined in the scheme's documentation. Each investor owns units representing a portion of the total investment, with the value of these units determined by the net asset value (NAV) of the fund. The NAV represents the per-unit value of the mutual fund scheme.",3,"• Choose between a Direct and a Regular plan, and between Growth and IDCW 
+What a mutual fund is 
+A mutual fund collects money from many investors and invests it, as a single pool, in a 
+portfolio of securities — shares, bonds, money market instruments or a combination. A 
+professional fund manager makes the investment decisions, following the objective stated in 
+the scheme’s documents. 
+You own units of the scheme, proportionate to what you invested. If the portfolio gains value,
+
+defined entry and exit criteria. 
+Mutual fund — A pooled investment vehicle investing many investors’ money in a managed 
+portfolio. 
+NAV — Net Asset Value. The per-unit value of a mutual fund scheme. 
+NBFC — Non-Banking Financial Company, regulated by the RBI. 
+NFO — New Fund Offer. The initial offer period of a new mutual fund scheme. 
+Nomination — A registration specifying who should receive an account’s assets on the holder’s 
+death.
+
+price or dividend. 
+• A bond is a loan: paid before owners, return capped at the coupon, and its market 
+price falls when interest rates rise. 
+• A mutual fund unit is not a third instrument. It is a proportionate claim on a pool of 
+shares and bonds, and it carries exactly the risk of what it holds. 
+• A fund adds diversification, professional selection and convenience. It cannot add 
+return without the matching risk. 
+Check Your Understanding",3,4,The generated answer closely matches the expected answer but lacks some details about the role of the fund manager and the specific types of securities typically included in a mutual fund.
+Q10,"What is a demat account, and why is it required?","A demat account holds securities in dematerialised, or electronic, form instead of physical paper certificates. It is used to hold and manage securities electronically. A Depository Participant, typically a bank or broker, opens and services the account.","A demat account is an electronic record of securities held by investors, which allows them to manage their holdings in various assets such as shares, bonds, ETFs, government securities, and mutual fund units. It provides several advantages over traditional paper-based records, including faster transactions, easier management, and enhanced security due to digital storage. Demat accounts are necessary for holding shares and ETFs, managing mutual fund units in demat form, and investing through stock exchange platforms. They offer a centralized platform where investors can keep track of their holdings across different asset classes, making it convenient for both individual investors and institutional investors alike.",3,"your units are recorded in a Statement of Account. A demat account enables investors to hold 
+mutual fund units alongside other securities in a single account, and is required for ETFs and 
+for investments through stock exchange platforms. Neither route is superior; they suit 
+different holdings. 
+You will need a demat account if you want to hold shares or ETFs, hold mutual fund units in 
+demat form, or invest through stock exchange platforms. 
+What a demat account is
+
+You open your account through a Depository Participant (DP) — a bank, broker or financial 
+institution registered with one of the depositories. 
+Why a demat account matters? 
+Beyond being a requirement for shares and ETFs, a demat account holds a wide range of 
+securities in electronic form, delivers corporate benefits to you directly, and keeps a single 
+record of what you own across asset classes. The practical benefits:
+
+demat form, or invest through stock exchange platforms. 
+What a demat account is 
+A demat account — short for dematerialised — holds eligible securities electronically: shares, 
+bonds, ETFs, Government Securities, and mutual fund units if you choose to hold them that 
+way. 
+Before dematerialisation, ownership was proved by paper certificates. Those certificates could 
+be lost, damaged, forged or stolen, transfers took weeks, and signature mismatches caused",4,3,The generated answer closely matches the expected answer but lacks some details from the retrieved document context.
+Q11,"What are derivatives, and what is their purpose?","A derivative is a financial contract or product whose value is derived from an underlying asset, such as shares, bonds, foreign exchange, metals or commodities. Derivatives are used by market participants for purposes including hedging, speculation and arbitrage.","Derivatives are contracts or products whose value is derived from the value of another asset called the underlying. The main purposes of derivatives include:
+
+1. Hedging: Institutions use derivatives to protect against potential losses due to changes in the value of assets like shares, indices, or commodities. By entering into derivative agreements, they can lock in prices and manage risk.
+
+2. Speculation: Retail investors may engage in derivatives for speculative purposes, hoping to profit from anticipated movements in the value of underlying assets. However, this comes with significant risks, including high returns but also substantial potential losses that could exceed initial investments.
+
+3. Trading: Derivatives play a crucial role in financial markets, allowing traders to take advantage of price differences across various trading venues. This helps close price gaps between different markets, enhancing liquidity and efficiency.
+
+4. Financial engineering: Complex derivative products are created by combining multiple underlying assets or altering existing ones, enabling sophisticated risk management strategies and investment opportunities.
+
+5. Regulatory compliance: Derivatives are often used by institutional investors to comply with regulatory requirements related to capital adequacy and risk management.
+
+It's important to note that while derivatives can offer benefits, they also carry significant risks, particularly for retail investors who might face substantial losses if they enter into derivative transactions without proper",3,"11 
+ 
+CHAPTER 1: BASICS OF DERIVATIVES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.1 Basics of Derivatives 
+A derivative is a contract or a product whose value is derived from the value of some 
+other asset known as the underlying. Derivatives are based on a wide range of underlying 
+assets. These include: 
+• Metals such as Gold, Silver, Aluminium, Copper, Zinc, Nickel, Tin, Lead, etc. 
+• Energy resources such as Oil (crude oil, products, cracks), Coal, Electricity, Natural 
+Gas, etc.
+
+cost. 
+Derivatives — futures and options: Contracts whose value derives from an underlying asset 
+such as a share, an index or a commodity. 
+Returns Risk 
+Can be very high, and are leveraged Very high. Losses can exceed the amount you put in 
+ Watch Out — a plain warning about derivatives 
+Derivatives are legitimate instruments used by institutions to hedge genuine risks. They 
+are also the fastest route by which retail investors lose money in the Indian market.
+
+transactions, thus closing the price gap at different locations. 
+1.5 Types of Derivatives Market 
+In the modern world, a huge variety of derivatives products are available. They are either 
+traded on organised exchanges (called exchange traded derivatives) or agreed directly 
+between the contracting counterparties over the telephone or through electronic media 
+(called Over-the-counter (OTC) derivatives). A few complex products are constructed on",3,3,"The generated answer correctly identifies derivatives as financial contracts whose value is derived from an underlying asset, and lists several purposes of derivatives. It includes key points from the retrieved document context."
+Q12,What is a futures contract?,"A futures contract is an exchange-traded, standardised agreement similar to a forward contract. It is traded through an organised and regulated exchange and has standardised terms such as lot size and maturity date.","A futures contract is an agreement made through an organized exchange to buy or sell a fixed amount of a commodity or a financial asset on a future date at an agreed price. It is a standardized forward contract traded on an exchange, where the clearing corporation associated with the exchange guarantees settlement of these trades. A trader who buys a futures contract takes a long position, while the one who sells it takes a short position. The words ""buy"" and ""sell"" used here are figurative; no actual transfer of money or underlying asset occurs between the buyer and seller during the initial trade. Futures contracts feature standardized terms for delivery, which makes them more predictable and easier to manage compared to spot transactions.",3,"Futures contracts were created to overcome the limitations of forwards. A futures 
+contract is an agreement made through an organized exchange to buy or sell a fixed 
+amount of a commodity or a financial asset on a future date at an agreed price. In simple
+
+30 
+ 
+terms, futures are standardised forward contract s that are traded on an exchange. The 
+clearing corporation associated with the exchange guarantees settlement of these trades. 
+A trader, who buys futures contract, takes a long position and the one, who sells futures, 
+takes a short position. The words buy and sell are figurative only because no money or 
+underlying asset changes hand, between buyer and seller, when the deal is originated. 
+Features of futures contracts
+
+28 
+ 
+CHAPTER 3: INTRODUCTION TO FORWARDS AND FUTURES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.1 Introduction to forward contracts 
+A forward contract is an agreement made directly between two parties to buy or sell an 
+asset on a specific date in the future, at the terms decided today. Forwards are widely 
+used in commodities, foreign exchange, equity and interest rate markets. 
+Let us understand with the help of an example. What is the basic difference between cash",4,4,The generated answer closely matches the expected answer and is well-supported by the retrieved document context.
+Q13,What is an options contract?,"An options contract gives its buyer the right, but not the obligation, to buy or sell an underlying asset at a specified price on or before a stated date. The buyer pays a premium, while the option seller receives the premium and has an obligation if the buyer exercises the option.","An options contract is a financial instrument that allows the holder (buyer) of the option to purchase or sell an underlying asset at a specified price within a certain time frame. Here are key aspects of an options contract:
+
+1. Right vs. Obligation: The holder of an options contract has the right to execute the transaction, but does not necessarily have to do so. Conversely, the person providing the contract (writer) has the obligation to fulfill the trade if the holder chooses to exercise their rights.
+
+2. Premium Payment: To obtain the right to enter into the contract, the holder must pay a premium fee to the writer. This premium represents the cost of obtaining the option's right.
+
+3. Exercise Option: The holder of an options contract can choose whether or not to exercise their right to buy or sell the underlying asset. If they decide to do so, they must follow the agreed-upon price and timeframe.
+
+4. Types of Options: There are primarily two types of options contracts: call options and put options. 
+
+   - A call option grants the holder the right to buy the underlying asset at a set price.
+   
+   - A put option gives the holder the right to sell the underlying asset at a specific price.
+
+5. Categorization: Options can be",3,"options have emerged as a financial instrument, as they allow unlimited profits on buying 
+or selling of the underlying asset with a provision of restricting the losses. 
+An option is a contract that gives the holder of the option the right, but not an obligation, 
+to buy or sell the underlying asset on or before a stated date/day, at a predetermined 
+price. This right can be bought for a price known as the option premium. The party taking
+
+The option buyer or holder has the right but no obligation with regards to buying or selling 
+the underlying asset, while the option writer has the obligation in the contract. Therefore, 
+the option buyer will exercise his option only when the situation is favourable to him. On 
+the other hand, the option writer is legally bound to honour the contract whenever the 
+option buyer decides to exercise his option. 
+Options may be categorized into two main types: 
+• Call Options 
+• Put Options
+
+obligation to buy or sell the underlying 
+asset. 
+The option buyer has the right to buy or 
+sell the underlying asset without any 
+obligation to do so; the option seller has 
+the obligation to buy or sell the underlying 
+asset, if the option b uyer exercises his 
+option. 
+The buyer and seller are required to pay 
+initial margin as decided by exchanges for 
+entering into futures contract. 
+The option buyer is required to pay to the 
+option seller a price known as option",3,3,"The generated answer accurately describes the key features of an options contract, including the right versus obligation aspect, premium payment, and different types of options. However, it lacks detail about the categorization mentioned in the retrieved document."
+Q14,What is the difference between call options and put options?,A call option gives the buyer the right to buy the underlying asset. A put option gives the buyer the right to sell the underlying asset.,"The difference between call options and put options lies in who has the right to execute the transaction:
+
+- A call option gives the holder (buyer) the right to buy the underlying asset at a specified price (strike price) before or on a specific date (maturity). The seller (writer) must fulfill this obligation if the holder exercises their right.
+
+- Conversely, a put option grants the holder the right to sell the underlying asset at a predetermined price (strike price) prior to or on a given date (maturity). The seller (writer) must honor this obligation if the holder opts to exercise their right.
+
+In summary, call options allow for buying, while put options allow for selling. This fundamental distinction underpins how each type of option functions within financial markets.",3,"Options may be categorized into two main types: 
+• Call Options 
+• Put Options 
+An option, which gives the buyer/holder a right to buy the underlying asset, is called a call 
+option; and an option which gives the buyer/holder a right to sell the underlying asset, is 
+called a ’put option’. 
+ 
+LEARNING OBJECTIVES: 
+After studying this chapter, you should know about: 
+• Concept of Options 
+• Payoffs in case of option contracts 
+• Difference between futures and options
+
+(a) Short straddle 
+(b) Short strangle 
+(c) Covered call 
+(d) Protective put 
+ 
+3. Put-call parity refers to the relationship between: ________. 
+(a) futures and options on the same stock 
+(b) call options on the same stock with the same maturity but different strike prices 
+(c) put and call options on the same stock but different strike prices and different maturity 
+(d) call and put options on the same stock with the same strike prices and same maturity
+
+a put option with the same maturity but a strike price of 17600. 
+Volatility 
+It is the magnitude of movement in the underlying asset’s price, either up or down. It 
+affects both call and put options in the same way. Higher the volatility of the underlying 
+stock or index, higher the premium because the re is a greater possibility that the option 
+will move in -the-money during the life of the contract. Hence, when the index or stock",4,4,The generated answer accurately describes the differences between call options and put options as per the expected answer. The retrieved document context supports these points without any contradictions.
+Q15,What is the difference between futures and options contracts?,"A futures contract creates an obligation for both parties to honour the contract. An options contract gives the buyer a right, but not an obligation, to buy or sell the underlying asset. The option seller has an obligation if the buyer exercises the option.","Futures contracts and options contracts differ in several key aspects related to their rights and obligations of the counterparties involved:
+
+1. **Buyer and Seller Obligations**: 
+   - **Futures Contracts**: Both buyers and sellers have the obligation to buy or sell the underlying asset at a predetermined price (set before the contract expires) within a specified time frame. This means there is a fixed exchange rate and no possibility of profit beyond the agreed-upon price.
+   - **Options Contracts**: The option buyer has the right, but not the obligation, to buy or sell the underlying asset at a predetermined price (strike price) within a specified time frame. The seller (option writer) must fulfill the obligation if the buyer exercises the option.
+
+2. **Payoff Structure**:
+   - **Futures Contracts**: The payoff structure is linear, meaning unlimited gains and unlimited losses. The maximum gain occurs when the spot price equals the futures price, while the maximum loss is incurred when the spot price equals zero.
+   - **Options Contracts**: The payoff structure depends on whether the option is exercised or not. If the option is exercised, the payoff is determined by the difference between the strike price and the spot price at expiration. If not exercised, the payoff is zero.
+
+3",3,"options expire with no value, the entire amount of the premium paid for those options is 
+lost. 
+Futures and options contracts are both used for trading, hedging and arbitrage. The main 
+points of difference between these two contracts in terms of rights and obligations of the 
+counterparties can be summarized as follows: 
+Futures contracts Option contracts 
+The buyer and se ller both have the 
+obligation to buy or sell the underlying 
+asset. 
+The option buyer has the right to buy or
+
+58 
+ 
+CHAPTER 4: INTRODUCTION TO OPTIONS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1 Basics of options 
+As seen in earlier section, forward/futures contract is a commitment to buy/sell the 
+underlying and has a linear payoff, which indicates unlimited losses and profits. However, 
+some market participants desire to ride the upside but restrict the downside. Accordingly, 
+options have emerged as a financial instrument, as they allow unlimited profits on buying
+
+options portfolio. 
+5.1 Futures contracts for hedging, speculation and arbitrage 
+Derivative instruments such as futures and options were primarily created for managing 
+risk. In Unit 3 we saw how stock and index futures contracts can be used for mitigating 
+the risk of a single stock or a portfolio of stocks. We saw that an investor may take a ‘long 
+hedge’ or a ‘short hedge’ using futures. Let us look at specific examples in this chapter. 
+Long hedge using stock futures:",3,3,"The generated answer accurately describes the differences between futures and options contracts, including their obligations, payoffs, and the nature of their use."
+Q16,What is a lot size in derivatives trading?,"Lot size, also called contract size, is the number of units of the underlying asset represented by one derivatives contract. The exchange determines the lot size for futures contracts.","A lot size in derivatives trading refers to the standard quantity of underlying assets traded in each transaction. In the context provided, it specifies that the lot size should be set at a level where the contract value falls within the range of Rs. 15 lakhs to Rs. 20 lakhs. This ensures that the contract value remains manageable while still allowing for significant trading volumes. The lot size is typically determined by regulatory bodies to ensure fair competition and prevent excessive speculation. For example, if a client holds a short position in one lot of a stock futures contract, the lot size would be 1500 shares (assuming a standard share size). The final settlement price calculation involves determining the difference between the final settlement price and the previous day's settlement price, then multiplying this difference by the number of lots held.",3,"introduction in the market. Further, the lot size shall be fixed in such a manner that the 
+contract value of the derivative on the day of review is within Rs. 15 lakhs to Rs. 20 lakhs. 
+This will lead to increase in Lot Size to the extent that the Contract value will fall between 
+Rs. 15 lakhs to Rs. 20 lakhs. These changes will be effective from Nov 2024.3 
+Contract Cycle : It is a period over which a contract trade. Index and stock futures
+
+and will be settled in cash on T+1 day. 
+Example 2: A client Mr. Q of clearing member XYZ has a short position in one lot of a stock 
+futures contract on the expiry date of the contract. Lot size is 1500. The final settlement 
+price is Rs. 475. The previous day’s settlement price was Rs. 482. What is the final 
+settlement obligation? 
+Since the client has an open short position in one lot of stock futures contract on expiry
+
+nature of derivative contracts. Clients trading in futures contracts have to deposit a 
+margin with their broker but this is only a fraction of the entire contract value. Similarly, 
+clients trading in options are required to pay the option premium, which is again, a small 
+amount relative to the size of the contract. The small initial capital outlay required for 
+trading equity derivatives can encourage some clients to build up large derivatives",3,3,"The generated answer closely matches the expected answer in terms of content and intent. However, there are minor differences in phrasing and additional details that do not significantly alter the core message."
+Q17,What is margin in futures trading?,Initial margin is the amount deposited into a margin account when entering a futures contract. It protects the exchange against potential defaults. Both buyers and sellers of futures contracts must pay initial margin.,"Margin in futures trading refers to the initial payment made by a trader to their broker before entering into a futures contract. This payment serves two main purposes:
+
+1. It provides liquidity to the market by ensuring that there are buyers and sellers willing to trade at any given price.
+2. It acts as collateral to protect the broker from potential losses if the trader defaults on the contract.
+
+In the context provided, the margin required for a futures position is Rs.2,21,000, which represents 20% of the contract value. For instance, in the case of a long Nifty Futures position with a contract value of Rs.11,05,000, the margin would be calculated as follows:
+
+Margin = Contract Value × Margin Percentage
+Margin = Rs.11,05,000 × 20%
+Margin = Rs.2,21,000
+
+This margin requirement ensures that the trader has sufficient funds to cover potential losses while also allowing them to participate in the market.",3,"position in a single futures contract gives the trader a position equivalent to buying 850 
+shares, but without paying the price of 850 shares at the onset. The contract value for the 
+long position is Rs.11,05,000 ( = Rs 1300 x 850) . The only cash outlay for the futures 
+position is the margin that the trader must pay to his broker. Assume that the margin is 
+Rs.2,21,000 (i.e., 20% of the contract value). Suppose that a week later the stock is traded
+
+The amount one needs to deposit in the margin account at the time of entering into a 
+futures contract is known as the initial margin. Let us take an example - On May 14, 2024 
+a person decided to enter into a futures contract. He expects the market to go up and so 
+he takes a long Nifty Futures position for May expiry at Rs.22250. 
+The contract value = Nifty futures price * lot size = 22250 * 25 = Rs 5,56,250.
+
+203 
+ 
+The disclosure document about derivative products contains information describing th e 
+mechanics and risks of derivatives trading, transaction costs, margin requirements and 
+tax consequences of margin trading. 
+In view of the increasing participation of retail or individual investors in the equity futures 
+and options segment, there is a n eed to ensure informed decision -making by such 
+investors after due consideration of the risks involved in the trading of equity derivatives.",3,3,"The generated answer accurately describes the concept of margin in futures trading, including its purpose and calculation method. However, it does not mention the specific details provided in the retrieved document context."
+Q18,What is mark-to-market settlement?,Mark-to-market (MTM) settlement is the process of adjusting profits and losses based on daily price changes in the underlying asset. The exchange collects MTM amounts from loss-making participants and pays the gains to profitable participants on a daily basis.,"Mark-to-market (MTM) settlement is a process used in financial markets where the value of positions held by traders is continuously updated based on real-time market prices. This adjustment helps in determining the profit or loss associated with these positions. For contracts that settle through cash payments rather than physical delivery, such as cash-settled contracts, MTM settlement occurs every day at the end of the trading session. 
+
+For physically settled contracts, like those involving commodities or securities, the final settlement takes place on the expiration date of the contract. During this period, any changes in the market value of the underlying asset are reflected in the position's value, leading to adjustments in the margin required from either party under the contract. These adjustments ensure that both parties remain solvent and comply with their obligations under the agreement.",3,"Mark to Market (MTM) is a process by which margins ar e adjusted based on daily price 
+changes in the markets for underlying assets. The profits/losses are computed as the 
+difference between: 
+a) The trade price and the day's settlement price for contracts executed during the 
+day but not squared-off. 
+b) The pre vious day's settlement price and the current day's settlement price for 
+brought forward contracts.
+
+contracts (i.e., cash-settled and physically settled). 
+Settlement of futures contracts: 
+Futures contract s have two types of settlements: (A) the mark -to-market (MT M) 
+settlement which happens on a continuous basis at the end of each day, and (B) the final 
+settlement which happens on the last trading day of the futures contract. 
+(A) Mark-to-market (MTM) settlement: 
+Mark to Market (MTM) is a process by which margins ar e adjusted based on daily price
+
+pay initial margin, as there is an obligation on both the parties to honour the contract. 
+The initial margin is dependent on price movement of the underlying asset. As high 
+volatility assets carry more risk, the exchange would charge higher initial margin on them. 
+Marking to Market (MTM) 
+In futures market, while contracts have maturity of several months, profits and losses are 
+settled on day -to-day basis – called mark to market (MTM) settlement. The exchang e",3,4,The generated answer accurately describes the concept of mark-to-market settlement without contradicting the provided context. It correctly identifies the process and its application in different types of contracts.
+Q19,What is an option's strike price and expiry date?,"The strike price, also called the exercise price, is the price at which the underlying security may be purchased by a call option holder or sold by a put option holder. The expiry date is the date on which the derivatives contract expires.",An option's strike price refers to the predetermined price at which the underlying asset can be bought or sold if the option is exercised. The expiry date is the specific date by which the option must be exercised or expire without being exercised.,3,"17800 -65 -91 -121 -167 
+17900 -65 -91 -121 -167 
+18000 -65 -91 -121 -167 
+ 
+The table above shows the net gains of a buyer of put options at different strike prices , 
+when the index expires at different levels on the expiry date. 
+ 
+The strike price of 17600 is in-the-money and hen ce the sellers are charging a higher 
+premium of Rs. 167 for it. Similarly strike price 17300 is out-of-the-money and hence the 
+contract is selling at low premium of Rs. 65.
+
+This strategy involves two different types of options (call and put) with the same strike 
+prices and same maturity. A long straddle position is created by buying a call and a put 
+option of the same strike and same expiry date whereas a short straddle is created by 
+shorting a call and a put option of same strike and same expiry date. 
+Let us say a stock is trading at Rs 6,000 and premiums for ATM call and put options are Rs 
+257 and Rs 136 respectively. 
+Long Straddle
+
+point of time. 
+Strike price or Exercise price (X) : Strike price is the price per share for which the 
+underlying security may be purchased by the call option holder (or sold by the put option 
+holder). In our examples, strike price for both call and put options is 18400. 
+Open Interest: As discussed in futures section, the open interest is the total number of 
+option contracts outstanding for an underlying asset.",3,3,"The generated answer correctly identifies the strike price as the predetermined price at which the underlying security may be purchased or sold, and the expiry date as the specific date by which the option must be exercised or expire."
+Q2,How do I choose a mutual fund?,"Choose a mutual fund by first identifying your financial goal and investment horizon. Select a suitable asset class and fund category. Then shortlist schemes and compare rolling returns, expense ratio, portfolio concentration, fund manager experience, investment objective and Risk-o-meter. Read the scheme documents and factsheet before investing.","To choose a mutual fund, follow these steps:
+
+1. **Identify Your Goal and Horizon**: Determine what financial objectives you want to achieve within a specific time frame. Consider factors such as retirement planning, education funding, or emergency savings.
+
+2. **Select an Asset Class**: Based on your goal and horizon, select an asset class that aligns best with your needs. Common asset classes include equity (stocks), debt (bonds), hybrid (a mix of stocks and bonds), and cash equivalents.
+
+3. **Review Mutual Fund Options**: Look through various mutual fund schemes available in the market. Each scheme has different characteristics, including risk level, expense ratio, and past performance.
+
+4. **Use a Risk-O-Meter**: Understand the risks associated with each scheme by reviewing their risk levels. Higher-risk schemes may offer higher potential returns but also come with greater volatility.
+
+5. **Analyze Return Figures**: Carefully interpret any historical returns presented for each scheme. Be cautious about comparing apples to oranges; ensure you understand the methodology used to calculate returns.
+
+6. **Avoid Selection Errors**: Beware of common pitfalls like chasing high returns, focusing solely on past performance, or ignoring fees and expenses.
+
+7. **Consult Professional Advice**: For complex investments, consider consulting with a",3,"The Investor Awareness Workbook | 103 
+ 
+Chapter 15 
+Choosing a Mutual Fund Scheme 
+ 
+ 
+Where this fits: The last chapter explained how mutual funds work. This chapter helps you 
+choose among the several hundred available. 
+By the end of this chapter you will be able to: 
+• Navigate the main categories of mutual fund and match them to your goals 
+• Read a Risk-o-meter and know where to find a scheme’s real details
+
+• Choose between a Direct and a Regular plan, and between Growth and IDCW 
+What a mutual fund is 
+A mutual fund collects money from many investors and invests it, as a single pool, in a 
+portfolio of securities — shares, bonds, money market instruments or a combination. A 
+professional fund manager makes the investment decisions, following the objective stated in 
+the scheme’s documents. 
+You own units of the scheme, proportionate to what you invested. If the portfolio gains value,
+
+• Read a Risk-o-meter and know where to find a scheme’s real details 
+• Interpret a return figure correctly and avoid the most common selection errors 
+Start with the goal, not the fund 
+There are hundreds of mutual fund schemes in India. Choosing among them by looking at last 
+year’s return table is how most people do it, and it is close to the worst available method. 
+The right sequence is: 
+1. The goal and its horizon 
+2. The asset class that suits that horizon",3,3,"The generated answer closely follows the expected format and content, though it lacks depth and detail compared to the provided context."
+Q20,What are the different types of risks involved in derivatives trading?,"The risks faced by derivatives market participants include counterparty risk, price risk, liquidity risk, legal or regulatory risk and operational risk. These include the risk of counterparty default, losses from price movements, inability to exit a position, contract enforceability issues, fraud and improper execution.","Based on the provided sources, there are three primary types of risks associated with derivatives trading:
+
+(a) Market risk (also known as systematic risk): This type of risk involves factors that affect the entire market or economy, including recessions, wars, policy changes, and pandemics. These events can impact almost all securities simultaneously, making them challenging for investors to manage directly through individual trades.
+
+(b) Liquidity risk: This risk arises due to an investor's difficulty in quickly closing a position without significant losses. In the context of derivatives, this often occurs during contract expiration periods where trading volumes decrease significantly, leading to potential difficulties in executing sell orders at favorable prices.
+
+(c) Counterparty risk: This refers to the risk posed by the failure of a counterpart party to fulfill its obligations under a derivative agreement. This could include defaults in payments or breaches of contractual commitments, which can result in financial losses for both parties involved in the transaction.
+
+These risks collectively highlight the complexity and inherent challenges faced by traders in managing derivatives markets effectively.",3,"• Meaning of derivatives and types of derivatives products 
+• History of derivatives market 
+• Significance of derivative markets 
+• Risks in derivatives trading
+
+direction and causing a loss to the investor. 
+(b) Liquidity risk: This is the risk arising out of the investor’s inability to liquidate a loss -
+making position. For example, trading volumes in stock futures and options typically fall 
+as the contracts near their expiry date and clients holding positions in such contracts may 
+find it difficult to close the positions. 
+(c) Counterparty risk : This is the risk arising out of the default of a counterparty to the
+
+The main types of risk 
+Risk What it is 
+Market risk 
+(systematic risk) 
+The risk from factors affecting the whole market or economy — 
+recessions, wars, policy shocks, pandemics. It affects nearly all 
+securities together. 
+Unsystematic risk Risk specific to one company or industry — a factory fire, a fraud, a 
+regulatory ban on a product, a failed drug trial. 
+Inflation risk Also called purchasing power risk. The risk that your returns will not",3,4,"The generated answer closely matches the expected answer in terms of content and structure. However, some details about liquidity risk and counterparty risk are missing."
+Q3,"What is SIP, and how does it work?","A Systematic Investment Plan (SIP) invests a fixed amount at regular intervals, usually monthly, into a chosen mutual fund scheme. It automates investing and supports rupee cost averaging because more units are purchased when NAV is low and fewer when NAV is high.","A Systematic Investment Plan (SIP) is an investment strategy where a fixed amount of money is invested regularly over time. It leverages automation to ensure consistent contributions are made towards saving and investing. 
+
+The key features of a SIP include:
+
+1. **Automatic Investment**: Money is transferred from a bank account to an investment fund on a predetermined schedule, typically monthly or quarterly. This eliminates the need for manual intervention each time an investment is needed.
+
+2. **Enforcement of Savings First Principle**: By setting up regular investments, individuals can save consistently without relying solely on their willpower to make financial decisions.
+
+3. **Rupee Cost Averaging**: When making regular investments, investors often experience fluctuations in the value of the underlying assets due to market conditions. Rupee cost averaging involves buying more shares when the stock price is lower and fewer shares when the price is higher. This helps smooth out the impact of these price changes over time.
+
+4. **Worked Example**: For instance, if ₹6,000 is invested on the same day for four months, this example demonstrates how rupee cost averaging works. During periods of declining prices, more units are purchased, while during rising prices, fewer units are bought. Over time, this results in a lower average",3,"What a SIP actually achieves 
+It enforces the savings -first principle. The money leaves automatically. Automation beats 
+willpower, and a SIP is that principle turned into a bank instruction. 
+It averages your purchase cost. Because your rupee amount is fixed, you buy more units when 
+the NAV is low and fewer when it is high. This is rupee cost averaging. 
+ Worked Example — rupee cost averaging 
+₹6,000 invested on the same date for four months, into a falling and recovering market.
+
+Step-up SIP — A SIP that automatically increases at defined intervals. 
+Stop-loss order — An order triggering a sale if the price falls to a specified level. 
+STP — Systematic Transfer Plan. Moving a fixed amount between schemes at fixed intervals. 
+STT — Securities Transaction Tax, levied on transactions executed on recognised exchanges. 
+Sudarshan — SEBI’s in-house artificial intelligence system, operational since November 2025,
+
+allocation, risk factors 
+14, 15 
+11 Start one SIP with annual step-up enabled 16 
+12 Register a nominee on every account. Write your one -page plan: goals, 
+horizons, target allocation, monthly amounts 
+8, 13",3,3,The generated answer closely matches the expected answer but lacks detail about the benefits of rupee cost averaging.
+Q4,What is the difference between equity funds and debt funds?,"Equity funds invest mainly in shares and aim for long-term capital appreciation. They have higher risk and higher long-term growth potential. Debt funds invest in fixed-income instruments such as government securities, treasury bills and corporate bonds. They generally have lower risk and aim for relatively stable returns, but still carry interest-rate and credit risks.","Equity funds and debt funds differ primarily in their investment focus and associated risks and returns:
+
+1. **Investment Focus**:
+   - **Equity Funds**: These invest primarily in stocks, which represent ownership stakes in publicly traded companies. They aim for capital appreciation and long-term growth potential.
+   - **Debt Funds**: These invest mainly in fixed-income securities such as government bonds, corporate bonds, and money market instruments. Their primary objective is to generate regular income and preserve principal value over time.
+
+2. **Risk Profile**:
+   - **Equity Funds**: Carry higher risk due to the speculative nature of stock investments. Fluctuations in share prices can lead to significant losses if the market performs poorly.
+   - **Debt Funds**: Generally have lower risk compared to equities because they rely on stable cash flows from loans and interest payments. However, they may also be affected by changes in interest rates.
+
+3. **Return Potential**:
+   - **Equity Funds**: Offer potentially high returns but come with substantial volatility. Investors expect these funds to outperform the broader market over the long term.
+   - **Debt Funds**: Typically offer steady returns with less variability. They are designed to provide predictable income streams and protect against inflation.
+
+4. **D",3,"equity fund is shares. A debt fund is bonds. A hybrid fund is both, in a stated proportion. 
+This has three consequences that matter more than anything else you will read about mutual 
+funds: 
+1. The fund’s risk is the risk of what it holds: An equity mutual fund carries equity risk in 
+full. The word “fund” does not soften it, the fund manager cannot remove it, and no 
+amount of diversification within the fund makes shares behave like deposits.
+
+amount of diversification within the fund makes shares behave like deposits. 
+2. The fund’s return is the return of what it holds, minus costs : There is no separate 
+source of profit. If Indian companies collectively do well, equity funds do well. 
+3. You still need to know what shares and bonds are: Choosing between an equity fund 
+and a debt fund is choosing between being an owner and being a lender. It is the same 
+decision, taken through a professional.
+
+Hybrid funds 
+Treatment follows the equity content: 
+• Equity-oriented hybrid funds (generally 65% or more in equity) are taxed like equity 
+funds 
+• Debt-oriented hybrid funds are taxed like debt funds 
+The scheme document and factsheet state the category. Check it before assuming. 
+Other assets 
+ Short-term Long-term 
+Holding period Less than 24 months More than 24 months 
+Rate Added to income, taxed at your slab rate 12.5% without indexation",3,3,"The generated answer closely matches the expected answer in terms of key points, though some details are missing."
+Q5,What is a Risk-o-meter?,"A Risk-o-meter is a standardised dial that displays a mutual fund scheme's risk level using a prescribed methodology. It has six levels, from Low to Very High, and is updated monthly. It helps investors understand scheme risk, but does not by itself determine whether a scheme suits their financial goals.","A Risk-o-meter is a standardized tool used by mutual fund schemes to indicate their risk level. It displays a six-level dial that reflects different degrees of risk, ranging from Low to Moderately High. This metric is crucial as it helps investors understand the potential volatility and exposure associated with each mutual fund scheme. The Risk-o-meter is essential for providing transparency about the risks involved in investing in various types of mutual funds, such as overnight and liquid-type schemes, very short duration debt, shorter to medium duration debt, balanced hybrids, and longer duration debt.",3,"Risk-o-meter — A standardised six-level indicator of a mutual fund scheme’s risk. 
+Risk tolerance — How much loss you can bear psychologically. 
+Rolling returns — Returns computed over every possible window of a given length, showing 
+consistency. 
+RTA — Registrar and Transfer Agent, which maintains investor records for issuers and funds. 
+Rule of 72 — A shortcut for estimating doubling time: 72 divided by the annual rate of return.
+
+108 | The Investor Awareness Workbook 
+ 
+The Risk-o-meter 
+ 
+Every mutual fund scheme must display a Risk-o-meter — a standardised dial showing the 
+scheme’s risk level, calculated by a prescribed methodology and updated monthly. 
+It has six levels: 
+Level Broadly indicates 
+Low Overnight and liquid-type schemes 
+Low to Moderate Very short duration debt 
+Moderate Short to medium duration debt, some conservative hybrids 
+Moderately High Longer duration debt, balanced hybrids
+
+index, over meaningful periods 
+Riskometer The scheme’s risk level on SEBI’s prescribed scale, 
+reviewed monthly 
+Fund manager and tenure Who is running it, and for how long — a record under a 
+manager who left tells you little 
+Exit load and minimum investment What leaving early costs, and what it takes to start 
+On the factsheet What it tells you 
+Portfolio turnover ratio How much the manager trades, which drives transaction 
+costs inside the TER",3,4,"The generated answer closely matches the expected answer, including all key points about the Risk-o-meter, its purpose, and the six levels. However, there are minor differences in terminology ('mutual fund scheme' vs 'mutual fund') and additional details like 'fund manager and tenure' and 'exit load and minimum investment', which do not significantly affect the core message."
+Q6,What is the difference between direct and regular mutual fund plans?,"A Direct plan is purchased directly from the AMC and has no distributor commission, resulting in a lower expense ratio. A Regular plan is purchased through a distributor, bank, broker or advisor and includes distributor commission in its expense ratio. Both plans have identical portfolios, but Regular plans provide assistance and servicing.","The main difference between a Direct plan and a Regular plan lies in the way they handle commissions and fees. In a Direct plan, there is no distributor commission charged, meaning that the investor receives the full benefit of their investments without additional charges. On the other hand, a Regular plan includes a distributor commission, which is paid to the fund company for services rendered. This means that while both plans have identical portfolios, the Direct plan avoids these extra costs associated with the distributor commission. Additionally, the Regular plan typically offers growth options through dividend income, whereas the Direct plan does not include this feature.",3,"2. What is the only difference between a Direct plan and a Regular plan of the same 
+scheme? 
+3. A scheme with NAV ₹64 declares an IDCW of ₹3. What is the NAV afterwards, and how 
+much better off are you? 
+ 
+Your Action Step 
+Pick any large equity mutual fund. Find its factsheet online and locate three numbers: the 
+Total Expense Ratio of the Direct plan, the TER of the Regular plan, and the exit load. 
+Write down the difference between the two TERs. That annual difference, compounded
+
+• Choose between a Direct and a Regular plan, and between Growth and IDCW 
+What a mutual fund is 
+A mutual fund collects money from many investors and invests it, as a single pool, in a 
+portfolio of securities — shares, bonds, money market instruments or a combination. A 
+professional fund manager makes the investment decisions, following the objective stated in 
+the scheme’s documents. 
+You own units of the scheme, proportionate to what you invested. If the portfolio gains value,
+
+Know what you are paying. 
+• Direct and Regular hold identical portfolios; Regular includes distributor commission. 
+Pay it only for service you actually receive. 
+• Growth reinvests and compounds; IDCW pays out and reduces NAV by the same 
+amount, and may return your own capital. 
+Check Your Understanding 
+1. Fund A has an NAV of ₹18 and Fund B has an NAV of ₹390. Which is cheaper? 
+2. What is the only difference between a Direct plan and a Regular plan of the same 
+scheme?",3,3,"The generated answer closely matches the expected answer, providing accurate distinctions between Direct and Regular plans. However, it lacks detail on the impact of the distributor commission and the comparison with the provided context."
+Q7,What is NAV?,Net Asset Value (NAV) is the per-unit value of a mutual fund scheme. It is calculated by subtracting liabilities from the total market value of the scheme's assets and dividing the result by the number of outstanding units.,"NAV stands for Net Asset Value. It is the per-unit value of a mutual fund scheme. It is calculated as the total market value of the scheme's assets, minus its liabilities, divided by the number of units outstanding. Investors can purchase and redeem units at the applicable NAV. A low NAV does not necessarily indicate that a fund is cheaper or more attractive. The amount paid remains proportional regardless of the change in NAV.",3,"The Investor Awareness Workbook | 97 
+ 
+Figure 11 ₹500 and ₹5,000 buy the same portfolio, in different proportions. What pooling 
+removes is the minimum size needed to diversify — not the risk of the assets themselves. 
+Net Asset Value 
+Net Asset Value (NAV) is the per-unit value of a scheme. It is calculated as the total market 
+value of the scheme’s assets, minus its liabilities, divided by the number of units outstanding. 
+You buy and redeem units at the applicable NAV.
+
+they no longer deal with. If you or a family member invested years ago and lost the 
+paperwork, MF Central and MITRA exist precisely for this. It costs nothing to check. 
+Recap in One Minute 
+• A mutual fund pools money from many investors into a professionally managed, 
+diversified portfolio. 
+• NAV is the per-unit value. A low NAV does not mean a cheap or better fund. 
+• TER is deducted invisibly from the NAV and compounds against you over decades. 
+Know what you are paying.
+
+1. Neither. NAV tells you nothing about whether a fund is cheap or attractive. The same 
+amount buys proportionally more or fewer units; a 10% rise produces the same result 
+either way. 
+2. The distributor commission, which is included in the Regular plan’s expense ratio. The 
+portfolios are identical. 
+3. NAV becomes ₹61 (plus applicable taxes). You are no better off — ₹3 has moved from 
+the NAV to your bank account. 
+Chapter 15",4,4,"The generated answer closely matches the expected answer, including all key points such as the definition, calculation method, and implications of NAV."
+Q8,What is the difference between primary and secondary markets?,"The primary market is where securities are issued for the first time, allowing companies to raise money from investors. The secondary market is where existing securities are traded between investors.","The primary market and secondary market are two distinct yet interconnected segments within the securities market. Here's how they differ:
+
+1. **Primary Market**:
+   - This segment involves the initial issuance of securities by companies seeking to raise capital from the public.
+   - It includes activities such as Initial Public Offerings (IPOs), which allow companies to go public and list their shares on stock exchanges.
+   - In this market, companies issue new securities to raise money for various purposes like expansion, research, or general operations.
+   - The purpose of the primary market is to facilitate the raising of capital for issuers by providing them with a platform to sell their newly issued securities directly to the public.
+
+2. **Secondary Market**:
+   - This segment deals with the trading of existing securities once they have been issued and listed on the primary market.
+   - It allows existing shareholders to resell their shares to other investors who wish to purchase them.
+   - Secondary market transactions occur after the initial sale of securities, allowing investors to buy and sell shares at different prices depending on supply and demand dynamics.
+   - The focus here is on facilitating the resale of previously issued securities rather than issuing new ones.
+
+In summary, while the primary market focuses on the initial offering of securities to raise",3,"money. 
+The two segments 
+The securities market has 
+two parts. They are separate 
+but inseparable — neither 
+works without the other. 
+The relationship between 
+the two is worth grasping. 
+Nobody would subscribe to 
+an IPO if there were no way 
+to sell afterwards. The 
+secondary market’s liquidity 
+is what makes the primary 
+market’s fundraising 
+possible. When you buy a 
+share on the exchange, no money reaches the company — but the existence of that market is
+
+governments that need capital. 
+• A share makes you an owner; a bond makes you a lender. That distinction drives risk 
+and return. 
+• The primary market issues new securities and raises money for the issuer; the 
+secondary market trades existing ones between investors. 
+• The main products are mutual funds, shares, bonds, ETFs, derivatives and 
+commodities. 
+• Derivatives are high -risk and unsuitable for most individual investors. Beginners are
+
+and selling one. 
+How the secondary market works 
+The secondary market is where shares already in existence change hands between investors. 
+The company receives nothing; it is simply a marketplace of buyers and sellers. 
+Here is what actually happens when you buy. 
+1. You place an order through your broker’s app or website, specifying the security, the 
+quantity and the price condition. 
+2. The broker routes it to the exchange - NSE or BSE.",3,4,"The generated answer accurately describes the differences between the primary and secondary markets, including key points about their roles and functions. However, some details might be simplified or generalized."
+Q9,"What is an IPO, and how does it work?","An Initial Public Offering (IPO) is a public issue through which a company offers shares to investors. In a fresh issue, the company creates and sells new shares and receives the money for purposes such as expansion or debt repayment. Investors can apply through mechanisms such as ASBA and UPI.","An Initial Public Offering (IPO) is a process where a private company issues its shares to the general public for the first time. The main purpose of an IPO is to raise capital for the company by selling shares to investors who then become owners of part of the company. 
+
+To apply for an IPO, companies typically use two methods:
+
+1. Asymmetric Pricing Auction (ASBA): This method involves setting a minimum price per share that must be achieved during the auction phase. Companies bid against each other to determine the final price per share.
+
+2. Underwriting Firm (UPI): In this approach, a financial institution acts as an underwriter, which means they buy the shares from the issuer at a predetermined price and resell them to investors. They also bear the risk if the stock price falls below their purchase price.
+
+During the IPO process, the company transfers ownership of newly created shares to investors. The funds raised from these sales go directly into the company's coffers to support various purposes such as expanding operations, repaying debts, or providing an exit route for existing shareholders.
+
+It's essential to note that while an IPO provides access to a broader investor base, it comes with certain risks. Investors need to consider factors like the company's historical performance, management team,",3,"• Explain what an IPO is and what the different types of issue mean 
+• Apply for an IPO through ASBA and UPI, and understand what is happening to your 
+money 
+• Judge an IPO on something other than expectations of listing-day gains 
+What the primary market does 
+The primary market is where securities are issued for the first time. A company sells new 
+shares, and the money goes to the company — to fund expansion, repay debt, or provide an 
+exit to existing shareholders.
+
+The Investor Awareness Workbook | 121 
+ 
+Chapter 17 
+The Primary Market: IPOs and FPOs 
+ 
+Where this fits: A share has to be created before it can be traded. This chapter covers the 
+moment of creation — when a company sells shares to the public for the first time and the 
+money actually reaches the business. 
+By the end of this chapter you will be able to: 
+• Explain what an IPO is and what the different types of issue mean
+
+minimum public shareholding requirements, or to allow existing shareholders to sell. 
+How it differs from an IPO: There is a crucial advantage — the company already has a market 
+price and a public track record. You are not guessing at a valuation with no reference point; 
+you can compare the offer price with the prevailing market price and with the company’s 
+actual performance since listing.",3,4,"The generated answer accurately describes the key aspects of an IPO, including the application process and the role of ASBA and UPI. However, it lacks detail about the specific steps involved in creating and transferring ownership of shares."

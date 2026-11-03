@@ -1,0 +1,33 @@
+[project]
+name = "document-qa-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nirmalraj G", email = "nirmaldhoni005@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "faiss-cpu>=1.15.1",
+    "matplotlib>=3.11.2",
+    "pypdf>=6.20.1",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.65.0",
+    "torch>=2.14.1",
+    "transformers>=5.19.0",
+]
+
+[project.scripts]
+document-qa-chatbot = "document_qa_chatbot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+
+[tool.uv.build-backend]
+module-root = "src"
+module-name = "document_qa_chatbot"
+
